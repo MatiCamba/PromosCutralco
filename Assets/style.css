@@ -99,10 +99,15 @@ h1 {
 /** Carrusel **/
 
 .carusel{
-    width:80%;
-    margin: 0 auto;
+    width:100%;
 }
 
+@media (min-width: 768px){ 
+    .carusel{
+        width:80%;
+        margin: 0 auto;
+    }
+}
 
 /** Tarjetitas **/
 
@@ -212,8 +217,9 @@ h1 {
 }
 
 .tarjeta__promo{
-    border: 2.5px solid rgba(49, 49, 49, 0.33);
+    border: 1px solid #e8e8e8;
     border-radius: 12%;
+    box-shadow: 0 2px 4px #00000014;
 }
 
 .card-img-top{
